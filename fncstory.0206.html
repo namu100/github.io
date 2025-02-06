@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google 드라이브 비디오 임베드</title>
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 360px; /* 원하는 높이로 설정 */
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/11tidEE923PsB0ZaoVowRIddStLrnw55a/preview" allow="autoplay"></iframe>
+    </div>
+</body>
+</html>
